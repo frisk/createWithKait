@@ -1,0 +1,31 @@
+{
+  "name": "yeomantest",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass-official": "~3.2.0",
+    "fontawesome": "~4.2.0",
+    "jquery-ui": "~1.11.1",
+    "modernizr": "~2.8.3",
+    "lightbox": "~2.7.1",
+    "jquery-easing": "*",
+    "flexslider": "*",
+    "jquery-mousewheel": "~3.1.12",
+    "superslides": "~0.6.2",
+    "placeholder.js": "*",
+    "isotope": "~2.0.1"
+  },
+  "overrides": {
+    "flexslider": {
+      "main": "jquery.flexslider.js"
+    },
+    "placeholder.js": {
+      "main": "js/jquery.placeholder.js"
+    },
+    "superslides": {
+      "main": "dist/jquery.superslides.js"
+    },
+    "lightbox": {
+      "main": ["js/lightbox.js", "css/lightbox.css"]
+    }
+  }
+}
