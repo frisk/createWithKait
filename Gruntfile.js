@@ -344,7 +344,7 @@ module.exports = function (grunt) {
           expand: true,
           dot: true,
           cwd: '.',
-          src: 'server/**/*',
+          src: ['server/*', 'server/lib/swiftmailer/lib/**/*'],
           dest: '<%= config.dist %>'
         }]
       },

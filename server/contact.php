@@ -10,8 +10,8 @@ $mail_conf = $config['mail'];
 $email = htmlspecialchars($_POST['email']);
 $name = htmlspecialchars($_POST['name']);
 $comment = htmlspecialchars($_POST['comments']);
-$kait_email = 'createwithkait@gmail.com';
-$kait_name = 'Kaitlin Frisk';
+$kait_email = $mail_conf['recipient'];
+$kait_name = $mail_conf['name'];
 $test_email = 'randall.frisk@gmail.com';
 $test_name = 'John Doe';
 
