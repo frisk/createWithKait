@@ -3,7 +3,7 @@
 date_default_timezone_set('America/Los_Angeles');
 
 // Swift Mailer Library
-require_once 'lib/swiftmailer/lib/swift_required.php';
+require_once 'lib/swift/lib/swift_required.php';
 require_once 'config.php';
 
 $mail_conf = $config['mail'];
