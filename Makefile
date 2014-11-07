@@ -5,6 +5,6 @@ install:
 clean:
 	ls | grep -v $(DIST) | xargs rm -rf
 expand:
-	cp $(DIST)/* ./ && rm -rf $(DIST)
+	cp -r $(DIST)/* ./ && rm -rf $(DIST)
 
 build: install clean expand
