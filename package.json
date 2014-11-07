@@ -31,5 +31,9 @@
   },
   "dependencies": {
     "express": "^4.9.7"
+  },
+  "scripts": {
+    "install" : "npm install && bower install && grunt:build",
+    "clean" : "ls | grep -v 'dist' | xargs rm -rf"
   }
 }
