@@ -33,7 +33,7 @@
     "express": "^4.9.7"
   },
   "scripts": {
-    "install" : "npm install && bower install && grunt:build",
+    "build" : "npm install && bower install && grunt dist:build",
     "clean" : "ls | grep -v 'dist' | xargs rm -rf"
   }
 }
