@@ -1,10 +1,13 @@
 DIST = 'dist'
 
 install:
-	npm install && bower install && grunt build:dist
+	npm install && bower install
 clean:
 	ls | grep -v $(DIST) | xargs rm -rf
 expand:
 	cp -r $(DIST)/* ./ && rm -rf $(DIST)
-
-build: install clean expand
+dist:
+	grunt build:dist
+start: install
+	grunt serve
+build: install dist clean expand

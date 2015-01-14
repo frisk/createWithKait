@@ -5,10 +5,11 @@
 		parts: {
 		  0: 'banner',
 		  1: 'services',
+                  2: 'events',
 		  //2: 'ourwork',
-		  2: 'aboutus',
+		  3: 'aboutus',
 		  //4: 'blog',
-		  3: 'contact'
+		  4: 'contact'
 		},
 		itemClass: 'menuItem',
 		itemHover: 'active',

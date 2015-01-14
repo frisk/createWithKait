@@ -1,7 +1,7 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 
 // bower:scss
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap.scss";
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
 // additional fonts
@@ -57,7 +57,7 @@ $icon-height: 120px;
 	margin:0;
 }
 body {
-	color:#8c9099;
+	color:#404040;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	position:relative;
@@ -188,7 +188,7 @@ h3 span {
 	font-family: 'Open Sans', sans-serif;
 	font-size:18px;
 	line-height:30px;
-	color:#8c9099;
+	color:white;
 	padding-bottom:0;
 	font-weight:400;
 	text-transform:none;
@@ -1117,6 +1117,9 @@ $cut-out-width: 4px;
 .offset-cut-out{
   border-bottom: $cut-out-width dashed $main1;
 }
+.cut-out-first{
+  border-bottom: $cut-out-width dashed $main2;
+}
 .cut-out-last{
   border-bottom: $cut-out-width dashed $main3;
 }
@@ -1443,11 +1446,36 @@ ul.flex-direction-nav{
 .expertiesdesc h4 {
 	font-size:20px;
 	font-weight:300;
-	color:#4f525a;
+	color:white;
 	line-height:normal;
 	text-transform:uppercase;
 }
+/*----------------------------------------------------
+	 5. Events Style
+------------------------------------------------------*/
+.events {
+  background: $main2;
+}
+.events .container{
+	padding-top:117px ;
+	padding-bottom:59px ;
+}
+.events .heading {
+	padding-bottom:111px;
+}
+.events .notice {
+  font-weight: bold
+}
+.events .notice span i {
+  color: $main1;
+}
 
+p.notice {
+  background: rgba(255,255,255, .3);
+  margin: 0px;
+  padding: 6px;
+  border: 1px solid white;
+}
 /*----------------------------------------------------
 	 5. Protfolio Style
 ------------------------------------------------------*/
@@ -1761,7 +1789,7 @@ p.date {
 }
 
 .contact .heading h3{
-	color:#fff;
+	color:white;
 }
 
 .topCon{
