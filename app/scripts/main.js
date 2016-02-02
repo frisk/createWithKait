@@ -1,3 +1,5 @@
+'use strict';
+
 (function($) {
   $(document).ready( function() {
   //enabling stickUp on the '.navbar-wrapper' class
@@ -5,11 +7,12 @@
 		parts: {
 		  0: 'banner',
 		  1: 'services',
-                  2: 'events',
+                  2: 'kaits',
+                  3: 'events',
 		  //2: 'ourwork',
-		  3: 'aboutus',
+		  4: 'aboutus',
 		  //4: 'blog',
-		  4: 'contact'
+		  5: 'contact'
 		},
 		itemClass: 'menuItem',
 		itemHover: 'active',
@@ -34,7 +37,7 @@
 //<![CDATA[
     var map;
 
-    function load() {
+    function load () {
       if (GBrowserIsCompatible()) {
         map = new GMap2(document.getElementById("map"));
         map.setCenter(new GLatLng(-37.817682, 144.957595), 13);

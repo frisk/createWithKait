@@ -1118,7 +1118,7 @@ $cut-out-width: 4px;
   border-bottom: $cut-out-width dashed $main1;
 }
 .cut-out-first{
-  border-bottom: $cut-out-width dashed $main2;
+  border-bottom: $cut-out-width dashed $offset-background;
 }
 .cut-out-last{
   border-bottom: $cut-out-width dashed $main3;
@@ -1341,6 +1341,54 @@ ul.flex-direction-nav{
 }
 .socialshare a:hover i {
 	color:#ff554e;
+}
+
+/*----------------------------------------------------
+	 4.2 Kaits Style
+------------------------------------------------------*/
+.kaits {
+  background: #fff;
+  text-align: left;
+  border-bottom: 4px dashed #c2b0c3;
+}
+
+.kait-frame-outer {
+  border: 10px solid #fff;
+  background-color: #333;
+  padding: 15px;
+}
+
+.kait-frame-inner {
+  border: 10px solid #fff;
+  background-color: #cec08d;
+  padding: 10px;  
+}
+.kaits .heading h1 {
+  text-align: center;
+}
+
+.kaits .heading h2 {
+  color: #999;
+  text-shadow: 1px 1px 5px #cec08d;
+  display: block;
+  padding-right: 0;
+  border-bottom: none;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.kaits .heading ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 22px;
+}
+
+.kaits .heading ul li {
+  display: inline-block;
+}
+
+.kaits .heading ul li a {
+  color: #cec08d;
 }
 /*----------------------------------------------------
 	 8. Testimonial Style
