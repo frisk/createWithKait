@@ -33,7 +33,7 @@ $icon-height: 120px;
 	License: GNU General Public License version 3.0
 	License URI: http://www.gnu.org/licenses/gpl-3.0.html
 	Version: 1.0
-	
+
 	1. CSS Reset
 	2. Document Setup
 	3. Header Part
@@ -45,8 +45,8 @@ $icon-height: 120px;
 	7. Blog Style
 	8. Contact Style
 	9. Footer Style
-	10. Responsive style			
-		
+	10. Responsive style
+
 --------------------------------------------------------------------------------/*
 
 /*----------------------------------------------------
@@ -220,7 +220,7 @@ header{
 }
 /*------------------------------------
 	3.1 Header Text Animation
---------------------------------------*/ 
+--------------------------------------*/
 .da-slider{
 	width: 100%;
 	height: 100%;
@@ -285,7 +285,7 @@ header{
 	z-index: 10;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 	font-weight: 700;
-	
+
 	text-align:center;
 	padding:0 50px;
 }
@@ -303,7 +303,7 @@ header{
 	white-space: nowrap;
 	z-index: 10;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-	
+
 	text-align:center;
 	padding:0 50px;
 }
@@ -1011,12 +1011,12 @@ header{
     -moz-transition: all .5s;
     -webkit-transition: all .5s;
     transition: all .5s;
-	
+
 	background: transparent;
 }
 .isStuck{
 	background:#fff ;
-	
+
 	-o-transition: all .5s;
     -ms-transition: all .5s;
     -moz-transition: all .5s;
@@ -1181,7 +1181,7 @@ ol.flex-control-paging li a{
 	display:block;
 	background:#fff;
 	cursor:pointer;
-	
+
 	-webkit-border-radius: 50%;
     border-radius: 50%;
 }
@@ -1210,7 +1210,7 @@ ul.flex-direction-nav{
 	top: 214px;
 	background:url(../images/left-arrow.png) no-repeat 0 50%;
 	opacity:0.3;
-	
+
 	-webkit-transition-duration: 700ms;
     -moz-transition-duration: 700ms;
     -o-transition-duration: 700ms;
@@ -1230,7 +1230,7 @@ ul.flex-direction-nav{
 	top: 214px;
 	background:url(../images/right-arrow.png) no-repeat 0 50%;
 	opacity:0.3;
-	
+
 	-webkit-transition-duration: 700ms;
     -moz-transition-duration: 700ms;
     -o-transition-duration: 700ms;
@@ -1257,7 +1257,7 @@ ul.flex-direction-nav{
 .worklogo li{
 	margin:0;
 	padding:0;
-	display:inline-block;	
+	display:inline-block;
 	width:auto !important;
 }
 .worklogo .flex-control-paging{
@@ -1361,7 +1361,7 @@ ul.flex-direction-nav{
 .kait-frame-inner {
   border: 10px solid #fff;
   background-color: #cec08d;
-  padding: 10px;  
+  padding: 10px;
 }
 .kaits .heading h1 {
   text-align: center;
@@ -1390,6 +1390,27 @@ ul.flex-direction-nav{
 .kaits .heading ul li a {
   color: #cec08d;
 }
+
+.kaits .press {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  h3 {
+    text-shadow: 1px 1px 1px #000;
+    color: #cec08d;
+  }
+  .article-block {
+    display: inline-block;
+    width: 24%;
+    padding-left: 1%;
+    a {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
 /*----------------------------------------------------
 	 8. Testimonial Style
 ------------------------------------------------------*/
@@ -1469,7 +1490,7 @@ ul.flex-direction-nav{
 }
 .expertiesico span.ico.kids-classes {
   background-image: url(../images/kids-classes.jpg);
-  background-size: $icon-width $icon-height; 
+  background-size: $icon-width $icon-height;
 }
 .expertiesico span.ico.adult-classes-beverage {
   background-image: url(../images/beverage.jpg);
@@ -1579,7 +1600,7 @@ p.notice {
 	display:block;
 	text-decoration:none;
 	border-right:none;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -1588,7 +1609,7 @@ p.notice {
 .portfolioFilter ul li a:hover{
 	border-color:#cfcfcf;
 	color:$main2;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -1633,20 +1654,20 @@ span.hoverBox{
 	position: absolute;
 	left:0px;
 	bottom: 0px;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
-	
+
 	background: rgba(0, 0, 0, 0.1);
-	
+
 }
 ul.portfolioContainer li:hover span.hoverBox{
 	visibility:visible;
 	left:0px;
 	bottom: 0px;
-	
+
 	background: rgba(0, 0, 0, 0.8);
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -1678,10 +1699,10 @@ span.hoverBox .zoom{
 	line-height:50px;
 	display: block;
 	float: left;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
-	
+
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
@@ -1689,7 +1710,7 @@ ul.portfolioContainer li:hover span.hoverBox .zoom{
 	visibility:visible;
 	left:0;
 	padding-top:7px;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -1707,10 +1728,10 @@ span.hoverBox .linKed{
 	line-height:52px;
 	display: block;
 	float: right;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
-	
+
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
@@ -1718,7 +1739,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	visibility:visible;
 	right:0%;
 	padding-top:7px;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -1746,7 +1767,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 }
 .isotope .isotope-item {
 	padding:0;
-	
+
     -webkit-transition-property: -webkit-transform, opacity;
     -moz-transition-property: -moz-transform, opacity;
     transition-property: transform, opacity;
@@ -1779,7 +1800,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	margin-left: -26% !important;
 	padding: 0px !important;
 	height:80px !important;
-	
+
 	display: block;
 	background-color: rgba(24,27,34,1);
 	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#B0000000, EndColorStr=#B0000000);
@@ -1983,7 +2004,7 @@ p.date {
 	line-height:145px;
 	width:150px;
 	height:150px;
-	
+
 	-webkit-border-radius: 50%;
     border-radius: 50%;
 }
@@ -2026,7 +2047,7 @@ p.date {
 	margin:0 30px 14px;
 	width:85px !important;
 	height:85px !important;
-	
+
 	-webkit-border-radius: 50%;
     border-radius: 50%;
 }
@@ -2116,7 +2137,7 @@ p.date {
 		height:140px;
 		padding-top:50px;
 	}
-	
+
 	.education .workYear{
 		padding-top:58px;
 	}
@@ -2135,7 +2156,7 @@ p.date {
 	.proPic{
 		text-align:center;
 	}
-	
+
 	.navbar-inverse .navbar-toggle .icon-bar{
 		background:#000;
 	}
@@ -2161,14 +2182,14 @@ p.date {
 	#header h3 span{
 		font-size: 16px;
 	}
-	
+
 	.abc{
 		width:100%;
 	}
 	.navArea {
 		float:none;
 	}
-	
+
 	.navbar-nav{
 		position: absolute;
 		width: 100%;
@@ -2183,7 +2204,7 @@ p.date {
 	.navbar.navbar-inverse.navbar-static-top a:hover{
 		background:none;
 	}
-	
+
 	.navbar-nav > li{
 		float:none;
 		display:block;
@@ -2195,7 +2216,7 @@ p.date {
 	.navbar-nav > li> a:hover{
 		background:#000 !important;
 	}
-	
+
 	.da-slide h2,
 	.da-slide h3,
 	.da-slide p {
@@ -2207,7 +2228,7 @@ p.date {
 	.da-slide h3 {
 		font-size:40px;
 	}
-	
+
 	.worlcompany ul.flex-direction-nav li a.flex-prev {
 		left:0;
 	}
@@ -2226,9 +2247,9 @@ p.date {
 	.worlcompany ul.flex-direction-nav li a.flex-prev{
 		top:155px;
 	}
-	
 
-	
+
+
 }
 
 
@@ -2250,7 +2271,7 @@ p.date {
 	ul.portfolioContainer li.col-xs-6{
 		width:49%;
 		min-height: 85px;
-		
+
 	}
 	.navbar-toggle {
 		margin-top: 23px;
@@ -2265,7 +2286,7 @@ p.date {
 		float:right;
 	}
 
-	
+
 }
 
 
@@ -2314,7 +2335,7 @@ p.date {
 
 
 @media screen and (max-width: 650px) {
-	
+
 	#wrapper{
 		top: 200px !important;
 	}
@@ -2329,7 +2350,7 @@ p.date {
 		display:block;
 		border-bottom-width:2px;
 	}
-	
+
 	.bannerText {
 		padding-top:15px;
 		padding-bottom:15px;
@@ -2360,7 +2381,7 @@ p.date {
 		padding:0;
 		border:none;
 	}
-	
+
 	.da-slide h2,
 	.da-slide h3,
 	.da-slide p {
@@ -2375,8 +2396,8 @@ p.date {
 	.da-slide p {
 		font-size:14px;
 	}
-	
-	
+
+
 }
 
 
@@ -2403,27 +2424,27 @@ p.date {
 		min-height: 600px;
 		height: 100%;
 	}
-	
+
 	.item{
 		width: 19%;
 	}
 	.item p {
 		font-size: 36px;
 	}
-	
+
 	.ourservice img{
 		width:100%;
 	}
-	
+
 	ul.portfolioContainer li.col-xs-6{
 		width:100%;
 	}
-	
+
 	.bntDownload{
 		font-size: 13px;
 		padding: 16px 14px;
 	}
-	
+
 	.conForm textarea{
 		margin-bottom:20px;
 	}
@@ -2431,12 +2452,12 @@ p.date {
 		display:block;
 		padding:0 0 40px 0;
 	}
-	
+
 	.nameError,
 	.emailError{
 		left:0px;
-		top:0px;		
-	}	
+		top:0px;
+	}
 	.da-slide h2 {
 		font-size:25px;
 		line-height:normal;
@@ -2445,7 +2466,7 @@ p.date {
 		font-size:18px;
 		line-height:normal;
 	}
-	
+
 }
 
 
